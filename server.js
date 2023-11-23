@@ -52,7 +52,7 @@ app.post("/api/notes", (req, res) => {
 			const notes = JSON.parse(data);
 			note.id = uuidv4();
 			notes.push(note);
-			fs.writeFile("./db/dbjson", JSON.stringify(notes));
+			fs.writeFile("./db/db.json", JSON.stringify(notes));
 		})
 		.then(() => {
 			res.json(note);
