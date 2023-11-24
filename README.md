@@ -1,16 +1,58 @@
-# Note Taker Starter Code
+# Note2Self
 
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
-# note2self
+## Description
+
+The "Note2Self" is a user-friendly web application designed to provide a place to keep track of user day to day scheduling.
+
+![Note2Self Screenshot](/public/assets/images/Homepage.png)
+
+## Objective
+
+- **Why was this project built?**  
+   To assist users in planning their days by providing real-time notes that can be created, updated, saved, and deleted.
+
+- **What problem does it solve?**  
+   To provide a visually intuitive way of monitoring activites.
+
+- **What did you learn?**  
+   This exercise provided opportunity to work with API's and express routes including
+  - GET
+  - POST
+  - DELETE
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+No installation is necessary; simply follow the provided link.
+
+[NOTE2SELF](https://andrewtullos.github.io/note2self/)
+
+To use this as a starter source code:
+
+1. Clone the repository to your local machine.
+2. Open the index.html in your preferred browser.
+3. Ensure you have an active internet connection for connection.
+
+![Note2Self Screenshot](/public/assets/images/Note.png)
+
+## Credits
+
+- [Andrew Tullos](https://github.com/AndrewTullos)
+- UT and EDX TA's and Tutors
+
+## License
+
+This project is licensed under the MIT License. For more details, refer to [https://choosealicense.com/](https://choosealicense.com/).
+
+---
+
+## Badges
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+![HTML](https://img.shields.io/badge/-HTML5-orange)
